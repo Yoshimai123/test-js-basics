@@ -4,7 +4,7 @@ function stringManpipulate(str){
     const strLength = str.replace(/\s*/g, '').length;
     const strContainsJS = strLowerCase.includes("js") || strLowerCase.includes("javascript");
     let invertedString = "";
-    for(let i = str.length - 1; i >= 0; i--) {
+    for(let i = str.length - 1; i>=0; i--) {
         let letter = str[i];
         invertedString += letter;
     }
